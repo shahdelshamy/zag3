@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shahd AbdelNaby</title>
     <link rel="icon" href="icon.jpg">
 </head>
+
 <body>
-    
-    
+
+
+    <!--the first way  -->
+    <form action="" method="post">
+
+        <div>
+            <label for="userText">UserName:</label>
+            <input type="text" id="userText" placeholder="Enter Your UserName" name="userName">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+
+        <label>Gender:</label>
+        <div style="margin-left: 30px;">
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <br>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+
+        <div>
+            <label for="phone">PhoneNumber:</label>
+            <input type="text" id="phone" name="phone" placeholder="01069512633">
+        </div>
+
+        <div>
+            <label for="birthDate">Birth Date:</label>
+            <input type="date" id="birthDate" name="date">
+        </div>
+
+        <div>
+            <input type="checkbox" id="check" name="remember">
+            <label for="check">remember me</label>
+        </div>
+
+        <div>
+            <input type="button" value="Set to default">
+        </div>
+        <input type="submit" value="send">
+
+    </form>
+
+
+    <hr>
+    <!-- the second way -->
+
+    <form action="" method="post">
+
+        <label for="userText">UserName:</label>
+        <input type="text" id="userText" placeholder="Enter Your UserName" name="userName">
+        <br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <label>Gender:</label>
+        <br>                        <!--nbsp=>non breaking space between it and next element-->
+        <label for="male"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; male</label>    
+        <input type="radio" id="male" name="gender" value="male">
+        <br>
+        <label for="female"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <label for="phone">PhoneNumber:</label>
+        <input type="text" id="phone" name="phone" placeholder="01069512633">
+        <br>
+
+        <label for="birthDate">Birth Date:</label>
+        <input type="date" id="birthDate" name="date">
+        <br>
+
+
+        <input type="checkbox" id="check" name="remember">
+        <label for="check">remember me</label>
+        <br>
+
+        <input type="button" value="Set to default">
+        <br>
+        <input type="submit" value="send">
+
+    </form>
+
+
+
+
+
 </body>
+
 </html>
